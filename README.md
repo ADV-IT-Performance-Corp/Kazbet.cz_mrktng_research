@@ -17,7 +17,9 @@ More information is available at [https://kazbet.cz/](https://kazbet.cz/).
 - prompts/deep-product-prompt-v2.md – final prompt used for executive product research  
 - research_outputs/o3-exec-summary-kazbet.md – O3-style product report  
 - notes/assumptions.md – research hypotheses and decision rationale  
-- .chatgpt/config.json – persistent prompt configuration  
+- .chatgpt/config.json – persistent prompt configuration using the `o3-deep-research` model
 - .chatgpt/project.json – metadata to enable Deep Research context
 
 This structure supports iterative use with GPT-based research flows.
+
+This repository is configured for the ChatGPT Connector to allow seamless prompt generation and O3 Deep Research output.
