@@ -1,0 +1,10 @@
+{
+  "projectName": "Kazbet.cz Marketing Research",
+  "description": "Research prompts and summaries for digital strategy and lead-gen for Kazbet.cz.",
+  "defaultFiles": [
+    "prompts/deep-product-prompt-v2.md",
+    "research_outputs/o3-exec-summary-kazbet.md",
+    "notes/assumptions.md"
+  ],
+  "promptTypes": ["research", "summary"]
+}
