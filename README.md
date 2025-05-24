@@ -19,9 +19,10 @@ notes/                 # Assumptions and rationale for decisions
 .chatgpt/              # Optional config for ChatGPT workflows
 ```
 
-- `prompts/deep_product_prompt_v2.md` – final prompt used for executive product research
-- `research_outputs/o3_exec_summary_kazbet.md` – O3-style product report
-- `notes/assumptions.md` – research hypotheses and decision rationale
-- `.chatgpt/config.json` – persistent prompt configuration
+- prompts/deep-product-prompt-v2.md – final prompt used for executive product research
+- research_outputs/o3-exec-summary-kazbet.md – O3-style product report
+- notes/assumptions.md – research hypotheses and decision rationale
+- .chatgpt/config.json – persistent prompt configuration
+- .chatgpt/project.json – metadata to enable Deep Research context
 
 This structure supports iterative use with GPT-based research flows.
