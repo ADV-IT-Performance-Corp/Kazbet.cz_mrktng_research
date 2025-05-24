@@ -1,0 +1,10 @@
+{
+  "projectName": "Kazbet Deep Research",
+  "description": "LLM prompt engineering, product research, and marketing strategy design for Kazbet.cz",
+  "defaultFiles": [
+    "prompts/deep-product-prompt-v2.md",
+    "research_outputs/o3-exec-summary-kazbet.md",
+    "notes/assumptions.md"
+  ],
+  "promptTypes": ["research", "summary"]
+}

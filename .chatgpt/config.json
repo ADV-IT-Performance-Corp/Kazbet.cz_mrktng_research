@@ -1,0 +1,4 @@
+{
+  "workflow": "deep-research",
+  "default_model": "o3-deep-research"
+}
