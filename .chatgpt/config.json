@@ -1,0 +1,5 @@
+{
+  "workflow": "deep-research",
+  "default_model": "o3-deep-research",
+  "temperature": 0.4
+}
