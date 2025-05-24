@@ -1,0 +1,10 @@
+{
+  "projectName": "Kazbet.cz Marketing Research",
+  "description": "Research prompts and outputs for KAZBET GROUP s.r.o. focused on the Czech market.",
+  "defaultFiles": [
+    "prompts/deep-product-prompt-v2.md",
+    "research_outputs/o3_exec_summary_kazbet.md",
+    "notes/assumptions.md"
+  ],
+  "promptTypes": ["research", "summary"]
+}

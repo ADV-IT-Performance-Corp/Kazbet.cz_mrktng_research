@@ -1,7 +1,27 @@
 # Kazbet.cz Marketing Research
 
-This repository supports deep product research and marketing strategy generation for KAZBET GROUP s.r.o., a Czech construction materials manufacturer.
+This project documents structured marketing research for **KAZBET GROUP s.r.o.**, a Czech manufacturer of roofing sheets, metal tiles, profiles and modular steel structures. The goal is to assess product positioning and marketing readiness for the Czech market.
 
-It is designed to integrate with Codex and GPT environments to explore product-market fit, buyer segmentation, and campaign readiness.
+## About KAZBET GROUP s.r.o.
+KAZBET GROUP provides fast-turnaround construction materials with long-term warranty options. Key products include:
+- TP153 trapezoidal sheets
+- Metal roof tiles
+- Custom profiles and modular steel systems
 
-Stay tuned for structured prompts, output summaries, and insights.
+More information is available at [https://kazbet.cz/](https://kazbet.cz/).
+
+## Repository Structure
+
+```
+prompts/               # Prompt packs for deep research
+research_outputs/      # Generated summaries and reports
+notes/                 # Assumptions and rationale for decisions
+.chatgpt/              # Optional config for ChatGPT workflows
+```
+
+- `prompts/deep-product-prompt-v2.md` – final prompt used for executive product research
+- `research_outputs/o3_exec_summary_kazbet.md` – O3-style product report
+- `notes/assumptions.md` – research hypotheses and decision rationale
+- `.chatgpt/config.json` – persistent prompt configuration
+
+This structure supports iterative use with GPT-based research flows.
