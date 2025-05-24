@@ -1,0 +1,3 @@
+# Ignore pytest cache directory
+.pytest_cache/
+
