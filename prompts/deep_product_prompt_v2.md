@@ -2,6 +2,10 @@
 
 **Version:** v2  
 **Date:** 2025-05-24  
+# Deep Product Research Prompt (v2)
+
+**Version:** v2  
+**Date:** 2025-05-24  
 
 **Model Config:** o3-deep-research | temperature: 0.4 | max_tokens: 2000
 
