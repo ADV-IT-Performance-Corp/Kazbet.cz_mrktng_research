@@ -1,0 +1,170 @@
+[
+  {
+    "source_name": "Google Docs API",
+    "url": "https://developers.google.com/docs",
+    "description": "Structured document generation and semantic memory.",
+    "used_by": ["ResearchAgent", "ConfigAgent", "ContentAgent"],
+    "relevance": ["memory", "grounding", "coordination"]
+  },
+  {
+    "source_name": "LangChain Docs",
+    "url": "https://docs.langchain.com",
+    "description": "Framework documentation for building language model chains.",
+    "used_by": ["ResearchAgent", "ConfigAgent"],
+    "relevance": ["prompting", "coordination"]
+  },
+  {
+    "source_name": "OpenAI Cookbook",
+    "url": "https://github.com/openai/openai-cookbook",
+    "description": "Examples and guides for OpenAI API usage.",
+    "used_by": ["ResearchAgent", "ContentAgent"],
+    "relevance": ["prompting", "memory"]
+  },
+  {
+    "source_name": "Claude API Docs",
+    "url": "https://docs.anthropic.com",
+    "description": "API reference for Claude models and tools.",
+    "used_by": ["ResearchAgent", "ConfigAgent"],
+    "relevance": ["prompting", "coordination"]
+  },
+  {
+    "source_name": "A2A Protocol",
+    "url": "https://github.com/AutogenStudio/autogen",
+    "description": "Protocol for agent-to-agent communication.",
+    "used_by": ["CampaignAgent", "ConfigAgent"],
+    "relevance": ["coordination", "grounding"]
+  },
+  {
+    "source_name": "n8n Docs",
+    "url": "https://docs.n8n.io",
+    "description": "Automation and workflow orchestration platform documentation.",
+    "used_by": ["ConfigAgent", "CampaignAgent"],
+    "relevance": ["coordination"]
+  },
+  {
+    "source_name": "MCP Server API",
+    "url": "https://mcp-docs.readthedocs.io/",
+    "description": "Reference for MCP server API operations.",
+    "used_by": ["ConfigAgent"],
+    "relevance": ["grounding"]
+  },
+  {
+    "source_name": "Airtable API",
+    "url": "https://airtable.com/developers/web/api/introduction",
+    "description": "Data storage and retrieval via Airtable REST API.",
+    "used_by": ["ResearchAgent", "ContentAgent"],
+    "relevance": ["memory", "coordination"]
+  },
+  {
+    "source_name": "Vertex AI Grounding",
+    "url": "https://cloud.google.com/vertex-ai/docs/generative-ai/grounding",
+    "description": "Google Vertex AI techniques for factual grounding.",
+    "used_by": ["ResearchAgent", "AnalyticsAgent"],
+    "relevance": ["grounding", "fallback"]
+  },
+  {
+    "source_name": "Amplitude Docs",
+    "url": "https://www.docs.developers.amplitude.com",
+    "description": "Analytics platform documentation for user behavior tracking.",
+    "used_by": ["AnalyticsAgent", "EngagementAgent"],
+    "relevance": ["metrics", "memory"]
+  },
+  {
+    "source_name": "Ray Serve Docs",
+    "url": "https://docs.ray.io/en/latest/serve/",
+    "description": "Microservice orchestration for scalable LLM agents.",
+    "used_by": ["ConfigAgent", "CampaignAgent"],
+    "relevance": ["orchestration", "performance"]
+  },
+  {
+    "source_name": "MLflow",
+    "url": "https://mlflow.org/docs/latest/index.html",
+    "description": "Logging and experiment tracking for models and prompts.",
+    "used_by": ["AnalyticsAgent", "OptimizationAgent"],
+    "relevance": ["prompt lineage", "tuning"]
+  },
+  {
+    "source_name": "Weights & Biases",
+    "url": "https://docs.wandb.ai/",
+    "description": "Tracking prompt performance and visualization suite.",
+    "used_by": ["ConfigAgent", "AnalyticsAgent"],
+    "relevance": ["CI", "metrics", "tuning"]
+  },
+  {
+    "source_name": "FastAPI Docs",
+    "url": "https://fastapi.tiangolo.com/",
+    "description": "API framework for connecting agents and services.",
+    "used_by": ["All"],
+    "relevance": ["api", "coordination"]
+  },
+  {
+    "source_name": "Helm Charts (K8s)",
+    "url": "https://helm.sh/docs/",
+    "description": "Kubernetes deployment management via Helm charts.",
+    "used_by": ["ConfigAgent", "Infra"],
+    "relevance": ["deployment", "CI/CD"]
+  },
+  {
+    "source_name": "Anthropic Prompting Guide",
+    "url": "https://docs.anthropic.com/claude/prompting-best-practices",
+    "description": "Best practices for prompting Claude models.",
+    "used_by": ["ResearchAgent", "ContentAgent"],
+    "relevance": ["prompting", "grounding"]
+  },
+  {
+    "source_name": "DeepMind Gopher Prompt Lab",
+    "url": "https://arxiv.org/abs/2202.11382",
+    "description": "Frameworks for reasoning, scoring, and mutation of prompts.",
+    "used_by": ["CampaignAgent", "ConfigAgent"],
+    "relevance": ["reflection", "mutation"]
+  },
+  {
+    "source_name": "FLAN-T5 Prompt Patterns",
+    "url": "https://github.com/google-research/FLAN",
+    "description": "Multimodal prompt-to-task mapping schemes for FLAN-T5.",
+    "used_by": ["ResearchAgent"],
+    "relevance": ["task grounding"]
+  },
+  {
+    "source_name": "CognitiveLoad Design (NNG)",
+    "url": "https://www.nngroup.com/topic/cognitive-load/",
+    "description": "Guidelines for managing user attention and load.",
+    "used_by": ["EngagementAgent", "ContentAgent"],
+    "relevance": ["behavioral prompting"]
+  },
+  {
+    "source_name": "TinyML / Edge AI",
+    "url": "https://www.tinyml.org/",
+    "description": "On-device lightweight inference strategies.",
+    "used_by": ["OptimizationAgent", "ConfigAgent"],
+    "relevance": ["adaptive control", "fallback"]
+  },
+  {
+    "source_name": "Apple ML APIs",
+    "url": "https://developer.apple.com/machine-learning/",
+    "description": "Private on-device inference APIs from Apple.",
+    "used_by": ["EngagementAgent"],
+    "relevance": ["fallback", "on-device"]
+  },
+  {
+    "source_name": "AI Fairness 360 Toolkit",
+    "url": "https://aif360.readthedocs.io/",
+    "description": "Toolkit for assessing and monitoring bias in outputs.",
+    "used_by": ["AnalyticsAgent", "ConfigAgent"],
+    "relevance": ["bias", "scoring"]
+  },
+  {
+    "source_name": "GDPR Prompting Compliance",
+    "url": "https://gdpr.eu",
+    "description": "Compliance patterns for messaging under GDPR.",
+    "used_by": ["EngagementAgent", "ConfigAgent"],
+    "relevance": ["compliance", "constraints"]
+  },
+  {
+    "source_name": "OpenPrompt Evaluator",
+    "url": "https://github.com/thunlp/OpenPrompt",
+    "description": "CI tool for comparing versions of prompts.",
+    "used_by": ["ConfigAgent", "PromptOps"],
+    "relevance": ["validation", "scoring"]
+  }
+]
